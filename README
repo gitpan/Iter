@@ -1,0 +1,34 @@
+Iter
+====
+
+Iter provides functions for comfortably iterating over perl data
+structures.
+
+EXAMPLE
+
+	foreach ( iter { one => 1, two => 2, three => 3} )
+	{
+			print join '-',( KEY, VALUE, counter ), "\n";
+	}
+
+	foreach ( iter [qw(Mon Tue Wnd Thr Fr Su So)] )
+	{
+			printf "Day: %s [%s]\n", VALUE, counter;
+	}
+	
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 M. Uenalan
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+

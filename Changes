@@ -1,0 +1,6 @@
+Revision history for Perl extension Iter.
+
+0.01  Wed Oct 23 21:57:24 2002
+	- original version; created by h2xs 1.21 with options
+		-A -X -a -n Iter
+
